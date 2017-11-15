@@ -2,7 +2,7 @@
 # Author: ShamiLakhani@hotmail.com
 # Version:  0.1 - Draft.
 # Objective: Reads and executes a command set in a text record of a domain. 
-# Uses Google DNS API to query the domain and read the reord.
+# Uses Google DNS API to query the domain and read the record.
 
 import requests, json
 domain = "remotecommand.remotecontrol.cloudns.cx"
