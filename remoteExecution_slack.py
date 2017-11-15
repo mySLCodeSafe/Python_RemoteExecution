@@ -8,7 +8,7 @@ import requests, json
 channelID = "[enter channel ID here]"
 tokenID = "xoxp-[enter token number here]"
 
-page = requests.get ("https://digitalengineering.slack.com/api/channels.history?token=" + tokenID + "&channel=" + channelID)
+page = requests.get ("https://[slack domain name].slack.com/api/channels.history?token=" + tokenID + "&channel=" + channelID)
 
 if page.status_code == 200:
     j = json.loads (page.content)
